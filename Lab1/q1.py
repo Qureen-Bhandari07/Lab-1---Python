@@ -2,4 +2,3 @@
 print ('Hi! I am Qureen Bhandari.')
 print(" I am 89 years old.")
 print(' I live in Lalitpur.')
-print(' ')
