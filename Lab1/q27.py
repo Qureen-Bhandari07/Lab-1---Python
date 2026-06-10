@@ -1,3 +1,4 @@
+#Create a number guessing game using functions and loops.
 import random
 
 def guessing_game():
@@ -10,7 +11,7 @@ def guessing_game():
             print("Correct Guess!")
             break
         elif guess < secret:
-            print("Too Low!")
+            print("TOO Low!")
         else:
             print("Too High!")
 

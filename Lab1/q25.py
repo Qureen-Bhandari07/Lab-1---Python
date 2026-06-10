@@ -1,3 +1,4 @@
+#Write a function that counts vowels and consonants in a string.
 def count_vowels_consonants(text):
     vowels = 0
     consonants = 0
