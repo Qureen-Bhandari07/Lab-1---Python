@@ -11,8 +11,8 @@ def simple_reflex_agent(location, status):
 
 
 print("********** Simple Reflex Agent **********\n")
-print("Program by: [Your Name]")
-print("Roll no: [Your Roll No]\n")
+print("Program by: Qureen Bhandari\n")
+print("Roll no: 24 \n")
 
 
 print("\nThe percept sequence is (A, Dirty)")
