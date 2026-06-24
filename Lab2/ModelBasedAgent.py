@@ -21,8 +21,8 @@ def model_based_agent(location, status):
 
 
 print("********** Model-Based Agent **********\n")
-print("Program by: [Your Name]")
-print("Roll no: [Your Roll No]\n")
+print("Program by: Qureen Bhandari")
+print("Roll no: 24\n")
 
 
 print("Initially, the state model contains:", world_model)

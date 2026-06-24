@@ -20,8 +20,8 @@ percepts = [
 
 
 print("********** Simple Reflex Agent **********\n")
-print("Program by: [Your Name]")
-print("Roll no: [Your Roll No]\n")
+print("Program by: Qureen")
+print("Roll no: 24")
 
 
 for percept in percepts:
