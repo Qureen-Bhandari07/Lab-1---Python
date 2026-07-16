@@ -8,20 +8,20 @@ graph = {
     'F' : []
 
 }
-visited = []
+visited = [] #list for visited nodes
 
-def dfs(visited, graph, node):
+def dfs_recursive(visited, graph, node):
     if node not in visited:
         visited.append(node)
         print(node, end = ' ')
     for neighbour in graph[node]:
-        dfs(visited, graph, neighbour)
+        dfs_recursive(visited, graph, neighbour)
 
 print('=' * 50)
-print("DEPTH-FIRST SEARCH TRAVERSAL (ITERATIVE)")
+print("DEPTH-FIRST SEARCH TRAVERSAL (Recursive)")
 print("=" * 50)
 print("DFS Order: ", end='')
-dfs(visited, graph, 'A')
+dfs_recursive(visited, graph, 'A')
 print()
 print("=" * 50)
 print("Program by: Qureen Bhandari")
