@@ -12,7 +12,7 @@ print("********** Simple Reflex Agent **********\n")
 print("Program by: Qureen Bhandari")
 print("Roll no: 24 \n")
 
-print("When Light is Red")
+print("When Light is GREEN")
 action = simple_reflex_agent('Green')
 print('Action : ',action)
 
@@ -23,3 +23,5 @@ print("Action : ",action)
 print('\nWhen light is Red')
 action = simple_reflex_agent('Red')
 print("Action : ",action)
+
+print("Successful")
