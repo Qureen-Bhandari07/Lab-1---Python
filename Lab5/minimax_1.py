@@ -45,7 +45,7 @@ def alpha_beta(node, is_maximizing, alpha, beta):
             value = alpha_beta(child, False, alpha, beta)
             best = max(best, value)
             alpha = max(alpha, best)
-            if beta &lt;= alpha:
+            if beta <= alpha:
                 break  # Prune
         return best
     else:
@@ -54,7 +54,7 @@ def alpha_beta(node, is_maximizing, alpha, beta):
             value = alpha_beta(child, True, alpha, beta)
             best = min(best, value)
             beta = min(beta, best)
-            if beta &lt;= alpha:
+            if beta <= alpha:
                 break  # Prune
         return best
 
